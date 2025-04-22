@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KXR6SYB2V4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KXR6SYB2V4');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - SimpleStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+             <a href="index.html"><h1>SimpleStore</h1></a>
+            <ul>
+                <li><a href="index.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html" id="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h2>Your Shopping Cart</h2>
+        <section id="cart-items">
+            <table id="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-table-body">
+                    <tr><td colspan="5">Loading cart...</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-summary">
+            <p><strong>Total: $<span id="cart-total">0.00</span></strong></p>
+            <div id="cart-actions">
+                 <a href="checkout.html" class="btn btn-secondary">Proceed to Checkout</a>
+            </div>
+        </section>
+    </main>
+
+     <footer>
+        <p class="container">&copy; 2025 SimpleStore</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

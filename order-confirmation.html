@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KXR6SYB2V4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KXR6SYB2V4');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmed - SimpleStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+             <a href="index.html"><h1>SimpleStore</h1></a>
+             <ul>
+                <li><a href="index.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html" id="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="confirmation-box">
+            <h1>Order Confirmed!</h1>
+            <p>Thank you for your purchase. Your order has been received and is being processed.</p>
+            <p>(This is a simulation - no actual order was placed or payment taken.)</p>
+            <a href="index.html" class="btn">Continue Shopping</a>
+        </div>
+    </main>
+
+     <footer>
+        <p class="container">&copy; 2025 SimpleStore</p>
+    </footer>
+
+    <script src="script.js"></script>
+     <script>
+        // Ensure cart count is updated even on this page
+        document.addEventListener('DOMContentLoaded', updateCartCountDisplay);
+    </script>
+</body>
+</html>
