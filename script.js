@@ -1,12 +1,12 @@
 // --- Product Data ---
 // Typically, this would come from a server/API
 const productsData = [
-    { id: 'p1', name: 'Stylish Backpack', price: 45.00, image: 'https://via.placeholder.com/150/92c952' },
-    { id: 'p2', name: 'Wireless Earbuds', price: 75.50, image: 'https://via.placeholder.com/150/771796' },
-    { id: 'p3', name: 'Reusable Water Bottle', price: 15.99, image: 'https://via.placeholder.com/150/24f355' },
-    { id: 'p4', name: 'Notebook & Pen Set', price: 12.00, image: 'https://via.placeholder.com/150/d32776' },
-    { id: 'p5', name: 'Portable Charger', price: 35.00, image: 'https://via.placeholder.com/150/f66b97' },
-    { id: 'p6', name: 'Travel Coffee Mug', price: 22.75, image: 'https://via.placeholder.com/150/56a8c2' }
+    { id: 'p1', name: 'Stylish Backpack', price: 45.00, image: 'https://mokobara.com/cdn/shop/files/The-Cheddar-Backpack_JB-1.jpg?v=1739271728' },
+    { id: 'p2', name: 'Wireless Earbuds', price: 75.50, image: 'https://m.media-amazon.com/images/I/51pycg0MGxL.jpg' },
+    { id: 'p3', name: 'Reusable Water Bottle', price: 15.99, image: 'https://market99.com/cdn/shop/files/motivational-sipper-travel-water-bottle-blue-yellow-pink-1-liter-water-bottles-1.jpg?v=1737480559' },
+    { id: 'p4', name: 'Notebook & Pen Set', price: 12.00, image: 'https://media.istockphoto.com/id/915319208/photo/shopping-list.jpg?s=612x612&w=0&k=20&c=udjKS7pK2RXJUE6rn90ya57VHJS8VOTAhXmsGeiy9wA=' },
+    { id: 'p5', name: 'Portable Charger', price: 35.00, image: 'https://m.media-amazon.com/images/I/614OfiBkyZL.jpg' },
+    { id: 'p6', name: 'Travel Coffee Mug', price: 22.75, image: 'https://rukminim2.flixcart.com/image/850/1000/xif0q/bottle/z/m/e/510-coffee-mug-insulated-double-walled-travel-mug-with-leakproof-original-imagczvvgzzuqpsc.jpeg?q=90&crop=false' }
 ];
 
 
